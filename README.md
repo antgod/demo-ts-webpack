@@ -1,4 +1,5 @@
 ```javascript
+mkdir webpack-ts-demo && cd webpack-ts-demo
 yarn init -y
 yarn add webpack webpack-dev-server ts-loader typescript rxjs
 yarn add webpack-cli -D
