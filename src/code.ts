@@ -1,8 +1,3 @@
-import {Observable} from 'rxjs';
+import sum from './common'
 
-const source$ = new Observable(o => {
-    o.next('hello world!!');
-    o.next('hello dottie!!');
-});
-
-const o = source$.subscribe(console.log);
+console.log(sum(3, 6))
